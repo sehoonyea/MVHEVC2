@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-c ..\..\..\..\cfg\MV-HEVC\baseCfg_3view_TechnicolorPainter_vertical_simul.cfg  -c ..\..\..\..\cfg\MV-HEVC\seqCfg_TechnicolorPainter_threeview_vertical.cfg -q 37</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:\Fun\3D-HEVC\HTM\HTM-16.0\HTM-16.0-MV-draft-5\bin\vc2015\x64\Release</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-c ..\..\..\..\cfg\MV-HEVC\baseCfg_3view_TechnicolorPainter.cfg  -c ..\..\..\..\cfg\MV-HEVC\seqCfg_TechnicolorPainter_threeview.cfg -q 37</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>.\x64\Debug</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
